@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    max-height: 200px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color: #088178;
+}
+
+/* #navbar li a.one{
+    color: #088178;
+} */
+
+.colheadcolor{
+    background-color: #088178;
+    background: radial-gradient(#f5f7fa,#c3cfe2);
+}
+
+
+
+.colhead{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 600px;
+}
+
+.colhead2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 6000px;
+}
+.col{
+    padding-left: 25px;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col img{
+    width: 90%;
+    height: 70%;
+    padding: 50px 0;
+}
+
+.col h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #126813;
+    color: #0ee1d3;
+    text-decoration: none;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #02400c;
+    color: #0feea0;
+}
+
+.features{
+    margin: 70px 0;
+    background: #ffffff;
+}
+
+.col2{
+    /* flex: 30%;
+    min-width: 250px;
+    max-width: max-content; */
+    flex-basis: 25%;
+    padding: 5px;
+    min-width: 250px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col2 img{
+    width: 100%;
+    transition: 0.7;
+}
+
+.col2 :hover{
+    transform: translateY(-5px);
+    scale: 1;
+}
+
+.title1{
+    text-align: center;
+    margin: 0 auto 80 px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+/* .title1 ::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+} */
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer{
+    background: #e3e6f3;
+    color: #363232;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #252424;
+}
+
+.footer h3{
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex:1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3{
+    flex-basis: 12%;
+    align-items: center;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+/* <!------ALL PRODUCTS-------> */
+
+select{
+    padding: 5px;
+    border: 1px solid #ff523b;
+    font-family: Sora;
+    border-radius: 10%;
+}
+
+select:focus{
+    outline: none;
+}
+.products_heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ABOUT US */
+p{
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.about_us_body{
+    font-family: 'Lato', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    background: #baa9f9;
+}
+
+.about_us_heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.para1{
+    padding-left: 25px;
+    flex-basis: 50%;
+    min-width: 300p
+}
+
+.para2{
+    padding-left: 25px;
+    flex-basis: 50%;
+    min-width: 300p
+}
